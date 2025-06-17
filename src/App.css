@@ -1,0 +1,62 @@
+nav {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  background-color: #e6f0ea;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #4CAF50;
+}
+
+.delete-btn {
+  margin-left: 1rem;
+  background: none;
+  border: none;
+  color: crimson;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.delete-btn:hover {
+  transform: scale(1.2);
+}
+
+.filters {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.filters button {
+  background-color: #e2e8f0;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.filters button:hover {
+background-color: #cbd5e0;
+}
+
+.filters button.active {
+  background-color: #4CAF50;
+  color: white;
+  box-shadow: 0 0 5px #4CAF50;
+}
+
+
