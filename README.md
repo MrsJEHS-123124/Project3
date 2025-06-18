@@ -91,4 +91,12 @@ Wireframe:
 +-----------------------------+
 |  Task List                 |
 |  [ ] Take a walk           |
-   [x]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+|   [x]  Drink water         |
++------------------------------+
+
+[Contact View]
+
++---------------------------------+
+| Contact Us Header               |
+| Empty Fields Name Email         |
++---------------------------------+
