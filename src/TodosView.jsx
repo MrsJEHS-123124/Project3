@@ -9,7 +9,7 @@ const healthOptions = {
 };
 
 const TodosView = () => {
-  const [selectedConcern, setSelectedConcern] = useState("");
+  const [selectedConcern, setSelectedConcern] = useState(["Select a health concern"]);
   const [tasks, setTasks] = useState([]);
   const [completed, setCompleted] = useState([]);
   const [newTask, setNewTask] = useState("");
